@@ -1,5 +1,5 @@
 # forked from https://github.com/aitherios/marytts-docker
-FROM openjdk:15-jdk-alpine
+FROM openjdk:8-jdk-alpine
 
 RUN apk update && \
   apk add ca-certificates wget && \
